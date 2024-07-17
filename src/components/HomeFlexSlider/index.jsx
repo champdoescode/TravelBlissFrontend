@@ -87,7 +87,10 @@ const HomeFlexSlider = () => {
             <div className='w-11/12 h-[calc(100vh-200px)] mb-16 '>
                 <Slider className="slider-container h-h-[calc(100vh-200px)] rounded-lg" {...settings}>
                 <div className='relative h-[calc(100vh-200px)] w-full flex items-center justify-center'>
-                        <img className='  w-full h-full bg-cover bg-center object-cover rounded-lg' src="/images/s3.jpg" alt="Login Background" />
+                        <div className='relative h-full w-full'>
+                                <img className='  w-full h-full bg-cover bg-center object-cover rounded-lg' src="/images/s3.jpg" alt="Login Background" />
+                                <div className='bg-black h-full w-full absolute top-0 rounded-lg bg-opacity-20'></div>
+                        </div>
                         <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20' >
                             <div className="font-['Sevillana'] italic font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl text-white text-center tracking-widest">Experience</div>
                             <div className='text-center text-white text-xl mt-4'>You have an amazing opportunity to experience a world of adventure and new experiences</div>

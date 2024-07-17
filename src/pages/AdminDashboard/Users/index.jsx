@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { useContact } from '../../../context/ContactContext'; // Adjust the path as necessary
 
 const Users = () => {
-  return (
-    <div className='w-9/12'>Users</div>
-  )
-}
+    const { contactCount } = useContact();
 
-export default Users
+    return (
+        <>
+            <div className='bg-white z-50'>
+
+                <div className='w-9/12'>Users</div>
+                <div>
+                    Contact Count: {contactCount}
+                </div>
+                <div>
+                    Current Path: {location.pathname}
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default Users;

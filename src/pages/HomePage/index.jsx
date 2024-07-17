@@ -12,9 +12,9 @@ const HomePage = () => {
         <div className=''>
             <HomeFlexSlider/>
             <OurServices/>
-            <ContactUs/>
             <Testimonials/>
             <Partners/>
+            <ContactUs/>
         </div>
     </>
   )

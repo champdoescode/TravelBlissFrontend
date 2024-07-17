@@ -3,10 +3,17 @@ import React from 'react';
 import { Bar, Pie, Line, Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, BarElement, LineElement, CategoryScale, LinearScale, PointElement, Tooltip, Legend } from 'chart.js';
 import { FaUsers, FaHotel, FaMapMarkerAlt, FaCalendarCheck } from 'react-icons/fa';
+import { CiLocationOn } from "react-icons/ci";
+import { LuHotel } from "react-icons/lu";
+
+import ChartNavbar from '../ChartNavbar';
+import NumnberOfQueeries from '../Queries/NumberOfQueries';
+import { useContact } from '../../../context/ContactContext';
 
 ChartJS.register(ArcElement, BarElement, LineElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const AdminCharts = () => {
+  const { contactCount } = useContact();
   const totalUsers = 1000;
   const placesBooked = 400;
   const hotelsBooked = 300;
@@ -107,27 +114,41 @@ const AdminCharts = () => {
   ];
 
   return (
-    <div className="ml-8 w-6/12">
+    <div className="px-8 w-[calc(100%-268px)] bg-gray-100 z-50">
+      <div>
+        <ChartNavbar/>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
-        <div className="bg-white p-4 shadow rounded-lg flex items-center">
-          <FaMapMarkerAlt className="text-4xl text-teal-500" />
+        <div className="bg-white p-4 shadow rounded-xl flex items-center">
+          <div className=' rounded-full p-2 bg-opacity-20  bg-teal-500 bg- m-2'>
+            <div className='p-2 border bg-opacity-30 bg-teal-500 rounded-full border-teal-500'>
+              <CiLocationOn className="text-4xl  text-teal-500 rounded-full" />
+            </div>
+          </div>
           <div className="ml-4">
-            <h2 className="text-xl font-semibold">Total Places</h2>
-            <p className="text-2xl">{placesBooked}</p>
+            <p className="text-2xl font-semibold">{placesBooked}</p>
+            <h2 className="text-xl text-gray-400 font-semibold">Total Places</h2>
           </div>
         </div>
         <div className="bg-white p-4 shadow rounded-lg flex items-center">
-          <FaHotel className="text-4xl text-teal-500" />
+            <div className=' rounded-full p-2 bg-opacity-20  bg-teal-500 bg- m-2'>
+              <div className=' border bg-opacity-30 bg-teal-500 rounded-full border-teal-500'>
+                <LuHotel className="text-4xl m-2  text-teal-500 rounded-full" />
+              </div>
+            </div>
+        
           <div className="ml-4">
-            <h2 className="text-xl font-semibold">Total Hotels</h2>
-            <p className="text-2xl">{hotelsBooked}</p>
+            <p className="text-2xl font-semibold">{hotelsBooked}</p>
+            <h2 className="text-xl text-gray-400 font-semibold">Total Hotels</h2>
           </div>
         </div>
         <div className="bg-white p-4 shadow rounded-lg flex items-center">
           <FaUsers className="text-4xl text-teal-500" />
           <div className="ml-4">
             <h2 className="text-xl font-semibold">Total Users</h2>
-            <p className="text-2xl">{totalUsers}</p>
+            <p className="text-2xl">
+              {contactCount}
+            </p>
           </div>
         </div>
         <div className="bg-white p-4 shadow rounded-lg flex items-center">

@@ -1,0 +1,73 @@
+.contact-list-container {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.contact-note {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-note::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5EEAD4;
+    --tw-bg-opacity: 1;
+
+    
+    transform: rotate(-9deg);
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.contact-note:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-note:hover::before {
+    transform: rotate(-3deg);
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-note h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.contact-note p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-note a {
+    color: #1e88e5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-note a:hover {
+    color: #1565c0;
+}

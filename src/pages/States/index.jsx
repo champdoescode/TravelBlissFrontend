@@ -116,7 +116,7 @@ const States = () => {
                 <HomeFlexSlider />
             </div>
             <div className="App bg-gray-100 flex w-full px-8 -mt-16 ">
-                <div className="w-1/5 h-fit bg-white rounded-lg border">
+                <div className="w-1/5 h-fit bg-white rounded-lg border mr-4">
                     <div className="mt-8 text-2xl italic text-center">Find Your Place</div>
                     {stateList.map((state, i) => (
                         <div key={i} onClick={() => fetchInfo(state)} className="ml-6 mb-4 mt-6 flex cursor-pointer text-neutral-500 hover:text-teal-500">
@@ -133,7 +133,7 @@ const States = () => {
                             onChange={(e) => setSearch(e.target.value)}
                         />
                         <button
-                        className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-4 rounded my-4 relative"
+                        className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-4 rounded-lg ml-4 relative"
                         onClick={() => setShowWishlist(!showWishlist)}
                     >
                         {showWishlist ? "Show All" : "Wishlist"}
@@ -174,7 +174,7 @@ const States = () => {
                                         className="bg-teal-500 hover:bg-teal-600 text-white py-2 rounded w-full"
                                         onClick={() => addToCart(innerdata.id, innerdata.placeImage, innerdata.placeName, innerdata.nearbyRailwayStation)}
                                     >
-                                        Add to favourite
+                                        Book Now
                                     </button>
                                 </div>
                                 {showWishlist && (

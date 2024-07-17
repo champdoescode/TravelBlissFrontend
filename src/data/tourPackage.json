@@ -1,0 +1,163 @@
+[
+    {
+      "tripId": "20643e76-cc42-4a05-a156-7376b2455a8a",
+      "tripName": "Bondamunda Railway",
+      "tripAddress": "Rourkela, Orissa, India",
+      "tripPrice": 7000,
+      "stateName": "Orissa",
+      "cityName": "Rourkela",
+      "categoryName": "Hill Stations",
+      "url": "https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/8/0/1/749801/0/7983133477e4281a4a1az.jpg"
+    },
+    {
+      "tripId": "4ea8dd18-d7d4-4c9b-a7df-03aba6e50016",
+      "tripName": "Dauli Hills",
+      "tripAddress": "Uttara, Orissa, India",
+      "tripPrice": 9000,
+      "stateName": "Orissa",
+      "cityName": "Uttara",
+      "categoryName": "Hill Stations",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/1c/9b/ca/shanti-stupa-dhauli-giri.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "tripId": "5a5c4705-c103-4867-b23f-8767192b4b9a",
+      "tripName": "Bibi Ka Maqbara",
+      "tripAddress": "Auranagabad, Maharastra, India",
+      "tripPrice": 6000,
+      "stateName": "Maharastra",
+      "cityName": "Aurangabad",
+      "categoryName": "Historical",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/The_Tomb_of_Dilras_Banu_Begum.jpg"
+    },
+    {
+      "tripId": "650f7847-bfa8-49a3-85a5-0157424413e0",
+      "tripName": "Char Minar",
+      "tripAddress": "Hyderabad,  Orissa, India",
+      "tripPrice": 6000,
+      "stateName": "Telangana",
+      "cityName": "Hyderabad",
+      "categoryName": "Historical",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Charminar-Pride_of_Hyderabad.jpg"
+    },
+    {
+      "tripId": "6756ff5c-6cdb-498c-bfe7-591fd319f896",
+      "tripName": "Ramdara Temple",
+      "tripAddress": "Pune, Maharastra, India",
+      "tripPrice": 6000,
+      "stateName": "Maharastra",
+      "cityName": "Pune",
+      "categoryName": "Religious",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/58/14/fe/ramdara-temple.jpg?w=1200&h=1200&s=1"
+    },
+    {
+      "tripId": "68a38496-840c-4257-a695-72cbee620870",
+      "tripName": "Gateway Of India",
+      "tripAddress": "Mumbai,Maharastra, India",
+      "tripPrice": 1500,
+      "stateName": "Maharastra",
+      "cityName": "Mumbai",
+      "categoryName": "Historical",
+      "url": "https://cdn.britannica.com/79/188879-050-25E7733E/Gateway-of-India-Mumai-monument-2012.jpg"
+    },
+    {
+      "tripId": "7d468e07-ef13-4117-9e03-2f6211e9df7f",
+      "tripName": "Statue of Equality",
+      "tripAddress": "Hyderabad,  Telanagana, India",
+      "tripPrice": 6000,
+      "stateName": "Telangana",
+      "cityName": "Hyderabad",
+      "categoryName": "Most Popular",
+      "url": "https://statueofequality.org/wp-content/uploads/2022/08/Statue-of-Equality-mobile-landing.jpg"
+    },
+    {
+      "tripId": "8750ef2f-caec-4618-9970-a470bcd1164f",
+      "tripName": "Jagannath Temple",
+      "tripAddress": "Pauri,  Orissa, India",
+      "tripPrice": 9000,
+      "stateName": "Orissa",
+      "cityName": "Puri",
+      "categoryName": "Religious",
+      "url": "https://www.tripsavvy.com/thmb/CqvMyrnnVy5fNLFYTr5zW13s-XE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/_DSC0713_Snapseed_Darkroom-819d0b229974460e8141622c4494e2ed.jpg"
+    },
+    {
+      "tripId": "a22880c0-b5a5-4e2f-ad03-e160252e8c4a",
+      "tripName": "Nagarjun Sagar Dam",
+      "tripAddress": "Nalgonda,  Telanagana, India",
+      "tripPrice": 6000,
+      "stateName": "Telangana",
+      "cityName": "Nalgonda",
+      "categoryName": "Dams",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/NagarjunaSagarDam.JPG"
+    },
+    {
+      "tripId": "a6d191ff-2576-4fdb-a548-2b362988e47f",
+      "tripName": "Amritsar place",
+      "tripAddress": "Amritsar Punjab, India",
+      "tripPrice": 5000,
+      "stateName": "Punjab",
+      "cityName": "Amritsar",
+      "categoryName": "Most Popular",
+      "url": "https://content.skyscnr.com/m/158f504177fb9b0a/original/GettyImages-478673422.jpg"
+    },
+    {
+      "tripId": "a71de64a-b594-4a36-9402-40c3f035f165",
+      "tripName": "Puri Sea Beach",
+      "tripAddress": "Pauri,  Orissa, India",
+      "tripPrice": 9000,
+      "stateName": "Orissa",
+      "cityName": "Puri",
+      "categoryName": "Sea Beach",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Puri_Sea_Beach_viewed_from_the_light_house.jpg"
+    },
+    {
+      "tripId": "b5cdb3fd-1bbe-4075-ad1c-ec31d7909425",
+      "tripName": "Taj Hotel",
+      "tripAddress": "Mumbai, Maharastra, India",
+      "tripPrice": 6000,
+      "stateName": "Maharastra",
+      "cityName": "Mumbai",
+      "categoryName": "Most Popular",
+      "url": "https://static.toiimg.com/photo/msid-96586840,width-96,height-65.cms"
+    },
+    {
+      "tripId": "bed55670-d229-4fe9-8c63-dbf3bcf63363",
+      "tripName": "Hussai Sagar",
+      "tripAddress": "Hyderaba,Teloangana, India",
+      "tripPrice": 1300,
+      "stateName": "Jammu & kashmir",
+      "cityName": "Srinagar",
+      "categoryName": "Lakes",
+      "url": "https://cms.tgtdc.in/fetch?payload=ed5030d9-0bf3-4b86-a4d8-aa555abfb979.jpg"
+    },
+    {
+      "tripId": "c8bdedad-c6d7-4c3a-ae59-9c50b5baeb96",
+      "tripName": "Chilika Lake",
+      "tripAddress": "Chilika, Orissa, India",
+      "tripPrice": 7000,
+      "stateName": "Orissa",
+      "cityName": "Chilika",
+      "categoryName": "Lakes",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Birds_eyeview_of_Chilika_Lake.jpg/800px-Birds_eyeview_of_Chilika_Lake.jpg"
+    },
+    {
+      "tripId": "d2f41507-5bc3-40db-aba3-31ae1fbc3e30",
+      "tripName": "ISKCON TEMPLE",
+      "tripAddress": "Pune, Maharastra, India",
+      "tripPrice": 4000,
+      "stateName": "Maharastra",
+      "cityName": "Pune",
+      "categoryName": "Religious",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ed/e8/66/iskcon-nvcc-temple.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "tripId": "e6bb8146-5838-4734-8d3b-09eaf3267af0",
+      "tripName": "Nandankanan Zoological Park",
+      "tripAddress": "Bhubneshwar,  Orissa, India",
+      "tripPrice": 9000,
+      "stateName": "Orissa",
+      "cityName": "Bubaneshwar",
+      "categoryName": "National Parks",
+      "url": "https://i.ytimg.com/vi/Y7o377iuIxs/maxresdefault.jpg"
+    }
+  ]
+  

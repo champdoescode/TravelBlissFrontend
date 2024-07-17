@@ -36,7 +36,7 @@ const Testimonials = () => {
 
   return (
     <div className="w-full flex justify-center bg-gray-100 py-16">
-      <div className="flex flex-col w-10/12 py-16 px-16 bg-teal-100">
+      <div className="flex flex-col w-10/12 py-16 px-16 bg-teal-100 shadow-xl">
         <div className="mb-12 font-['Ubuntu Sans Mono'] text-neutral-600 text-5xl italic mt-4">OUR TESTIMONIALS</div>
         <div className="flex">
           <div className="w-1/4 relative flex flex-col justify-center items-end border-r-2 border-gray-300 pr-16">
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 <img
                   src={image.src}
                   alt={`Image ${image.id}`}
-                  className={`cursor-pointer rounded-full my-6 h-20 w-20 ${selectedImage === image.data ? 'border border-teal-600' : ''}`}
+                  className={`cursor-pointer rounded-full my-6 h-20 w-20 hover:shadow-xl ${selectedImage === image.data ? 'border border-teal-600' : ''}`}
                   onClick={() => handleImageClick(image.data)}
                 />
                 {selectedImage === image.data && (
@@ -58,7 +58,7 @@ const Testimonials = () => {
           </div>
           <div className={`w-3/4 ml-4 flex justify-center items-center transition-opacity duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
             {selectedImage && (
-              <div className='w-11/12 flex justify-center'>
+              <div className='w-11/12 flex justify-center hover:shadow-xl'>
                 {selectedImage === 'Data for Image 1' && <Customer1 />}
                 {selectedImage === 'Data for Image 2' && <Customer2 />}
                 {selectedImage === 'Data for Image 3' && <Customer3 />}

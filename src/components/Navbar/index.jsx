@@ -107,8 +107,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full flex justify-center bg-gray-100 ">
-        <div className="my-4 w-11/12 rounded-2xl bg-white shadow-2xl">
+      <div className="w-full flex justify-center  bg-gray-100 ">
+        <div className="my-4 w-11/12 rounded-2xl bg-white shadow-2xl z-40">
           <nav className="p-2 flex justify-between items-center">
             <NavLink to="" className="flex items-center">
               <div className=" flex relative">
@@ -130,6 +130,7 @@ const Navbar = () => {
                 <NavLink to="" className="py-1 md:mx-3 lg:mx-6 hover:underline hover:underline-offset-8" >Home</NavLink>
                 <NavLink to="states" className="py-1 md:mx-3 lg:mx-6 hover:underline hover:underline-offset-8">State</NavLink>
                 <NavLink to="hotels" className="py-1 md:mx-3 lg:mx-6 hover:underline hover:underline-offset-8">Hotels</NavLink>
+                <NavLink to="tours" className="py-1 md:mx-3 lg:mx-6 hover:underline hover:underline-offset-8">Tours</NavLink>
 
               </div>
               <div className={`sidebar bg-white ${isOpen ? "active" : ""}`}>

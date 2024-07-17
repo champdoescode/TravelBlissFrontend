@@ -58,7 +58,7 @@ const ContactUs = () => {
     <div 
       className='w-full bg-teal-300 flex justify-center py-16 bg-cover bg-center mt-2 border border-black' 
       style={{ 
-        backgroundImage: isFormVisible ? "url('https://udaipurkiran.com/wp-content/uploads/2023/04/City-of-Lakes-1.jpg')" : "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://udaipurkiran.com/wp-content/uploads/2023/04/City-of-Lakes-1.jpg')", 
+        backgroundImage: isFormVisible ? "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/2378278/pexels-photo-2378278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" : "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/2378278/pexels-photo-2378278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')", 
         minHeight: '100px' 
       }}
     >
@@ -70,10 +70,10 @@ const ContactUs = () => {
               minHeight: '40vh', 
               backgroundColor: isFormVisible ? 'rgba(255, 255, 255, 0.2)' : 'transparent' 
             }}>
-            <div className='text-4xl '>Contact Us</div>
-            <div className='my-4 text-lg text-natural-500 mt-5 text-center'>Here are few wa ys to get in touch with us</div>
+            <div className='text-4xl text-white '>Contact Us</div>
+            <div className='my-4 text-lg text-natural-500 mt-5 text-center text-white'>Here are few wa ys to get in touch with us</div>
             <button
-              className='bg-teal-300 border border-black px-8 py-2 mt-4 hover:transition-all duration-500 hover:bg-teal-500 shadow-md hover:shadow-lg'
+              className='bg-teal-400 rounded  text-white px-8 py-2 mt-4 hover:transition-all duration-500 hover:bg-teal-500 shadow-md hover:shadow-lg'
               onClick={toggleFormVisibility}
             >
               {isFormVisible ? 'Cancel' : 'Contact Us'}
@@ -124,7 +124,7 @@ const ContactUs = () => {
                     <div className='text-2xl my-2'>Our Phone</div>
                     <div className='text-2xl text-neutral-400 my-2'>1234567890</div>
                     <div className='text-2xl mt-2'>Email</div>
-                    <div className='text-2xl text-neutral-400 mailto:my-2'>abc@gmail.com</div>
+                    <div className='text-2xl text-neutral-400 mailto:my-2'>numetry.in</div>
                     <div className='text-2xl mt-2'>Address</div>
                     <div className='text-2xl text-neutral-400 my-2'>Building A, Flat No.5, Gardenia Park Phase-II, 6 S, Somnath Nagar Rd, Pune, Maharashtra 411014</div>
                   </div>

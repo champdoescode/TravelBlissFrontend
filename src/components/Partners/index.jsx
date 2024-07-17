@@ -12,7 +12,7 @@ const logos = [
 
 const Partners = () => {
   return (
-    <div className="bg-teal-100 py-12" style={{ backgroundImage: 'url( https://img.freepik.com/free-photo/partnership-handshake-innovation-corporate-business-concept_53876-104048.jpg)' , backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="bg-teal-100 py-12" style={{ backgroundImage: 'url(https://images.pexels.com/photos/4963436/pexels-photo-4963436.jpeg?auto=compress&cs=tinysrgb&w=800)' , backgroundSize: 'cover', backgroundPosition: 'center' }}>
     <div className="mb-12 font-roboto font-bold text-neutral-900 text-5xl mt-0 text-center" style={{ textShadow: '2px 2px 5px rgba(191, 219, 254, 0.5)' }}>OUR PARTNERS</div>
 
 
@@ -26,7 +26,7 @@ const Partners = () => {
             <img 
               src={logo} 
               alt={`Logo ${index + 1}`} 
-              className="w-36 h-auto transform hover:scale-110 transition-transform duration-300"
+              className="w-36 h-20 transform hover:scale-110 transition-transform duration-300"
             />
           </div>
         ))}
@@ -38,7 +38,7 @@ const Partners = () => {
             <img 
               src={logo} 
               alt={`Logo ${index + 1}`} 
-              className="w-36 h-auto transform hover:scale-110 transition-transform duration-300"
+              className="w-36 h-20 transform hover:scale-110 transition-transform duration-300"
             />
           </div>
         ))}
